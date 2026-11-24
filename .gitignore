@@ -1,0 +1,21 @@
+# Excluded project docs
+ANTIGRAVITY.md
+MONGODB_ATLAS_SETUP.md
+
+# Dependencies & build outputs
+node_modules/
+frontend/dist/
+frontend/.vite/
+backend/target/
+
+# Environment & logs
+.env
+.env.*
+*.log
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,173 @@
+[
+  {
+    "applianceType": "FAN",
+    "hour": 0,
+    "isWeekend": false,
+    "expectedWatts": 68.0,
+    "expectedP50Kwh": 0.068,
+    "expectedP90Kwh": 0.082,
+    "nominalPowerFactor": 0.85
+  },
+  {
+    "applianceType": "FAN",
+    "hour": 8,
+    "isWeekend": false,
+    "expectedWatts": 72.0,
+    "expectedP50Kwh": 0.072,
+    "expectedP90Kwh": 0.085,
+    "nominalPowerFactor": 0.85
+  },
+  {
+    "applianceType": "FAN",
+    "hour": 14,
+    "isWeekend": false,
+    "expectedWatts": 75.0,
+    "expectedP50Kwh": 0.075,
+    "expectedP90Kwh": 0.090,
+    "nominalPowerFactor": 0.85
+  },
+  {
+    "applianceType": "FAN",
+    "hour": 20,
+    "isWeekend": false,
+    "expectedWatts": 70.0,
+    "expectedP50Kwh": 0.070,
+    "expectedP90Kwh": 0.084,
+    "nominalPowerFactor": 0.85
+  },
+  {
+    "applianceType": "AC",
+    "hour": 0,
+    "isWeekend": false,
+    "expectedWatts": 1150.0,
+    "expectedP50Kwh": 1.15,
+    "expectedP90Kwh": 1.45,
+    "nominalPowerFactor": 0.94
+  },
+  {
+    "applianceType": "AC",
+    "hour": 8,
+    "isWeekend": false,
+    "expectedWatts": 350.0,
+    "expectedP50Kwh": 0.35,
+    "expectedP90Kwh": 0.60,
+    "nominalPowerFactor": 0.92
+  },
+  {
+    "applianceType": "AC",
+    "hour": 14,
+    "isWeekend": false,
+    "expectedWatts": 1550.0,
+    "expectedP50Kwh": 1.55,
+    "expectedP90Kwh": 1.85,
+    "nominalPowerFactor": 0.95
+  },
+  {
+    "applianceType": "AC",
+    "hour": 21,
+    "isWeekend": false,
+    "expectedWatts": 1420.0,
+    "expectedP50Kwh": 1.42,
+    "expectedP90Kwh": 1.75,
+    "nominalPowerFactor": 0.94
+  },
+  {
+    "applianceType": "FRIDGE",
+    "hour": 0,
+    "isWeekend": false,
+    "expectedWatts": 120.0,
+    "expectedP50Kwh": 0.12,
+    "expectedP90Kwh": 0.18,
+    "nominalPowerFactor": 0.80
+  },
+  {
+    "applianceType": "FRIDGE",
+    "hour": 9,
+    "isWeekend": false,
+    "expectedWatts": 180.0,
+    "expectedP50Kwh": 0.18,
+    "expectedP90Kwh": 0.24,
+    "nominalPowerFactor": 0.82
+  },
+  {
+    "applianceType": "FRIDGE",
+    "hour": 14,
+    "isWeekend": false,
+    "expectedWatts": 175.0,
+    "expectedP50Kwh": 0.175,
+    "expectedP90Kwh": 0.23,
+    "nominalPowerFactor": 0.82
+  },
+  {
+    "applianceType": "FRIDGE",
+    "hour": 20,
+    "isWeekend": false,
+    "expectedWatts": 160.0,
+    "expectedP50Kwh": 0.16,
+    "expectedP90Kwh": 0.22,
+    "nominalPowerFactor": 0.81
+  },
+  {
+    "applianceType": "GEYSER",
+    "hour": 6,
+    "isWeekend": false,
+    "expectedWatts": 2000.0,
+    "expectedP50Kwh": 1.80,
+    "expectedP90Kwh": 2.20,
+    "nominalPowerFactor": 0.99
+  },
+  {
+    "applianceType": "GEYSER",
+    "hour": 7,
+    "isWeekend": false,
+    "expectedWatts": 2000.0,
+    "expectedP50Kwh": 1.95,
+    "expectedP90Kwh": 2.30,
+    "nominalPowerFactor": 0.99
+  },
+  {
+    "applianceType": "GEYSER",
+    "hour": 19,
+    "isWeekend": false,
+    "expectedWatts": 1950.0,
+    "expectedP50Kwh": 1.50,
+    "expectedP90Kwh": 1.90,
+    "nominalPowerFactor": 0.99
+  },
+  {
+    "applianceType": "KETTLE",
+    "hour": 8,
+    "isWeekend": false,
+    "expectedWatts": 1800.0,
+    "expectedP50Kwh": 0.15,
+    "expectedP90Kwh": 0.25,
+    "nominalPowerFactor": 1.00
+  },
+  {
+    "applianceType": "KETTLE",
+    "hour": 16,
+    "isWeekend": false,
+    "expectedWatts": 1800.0,
+    "expectedP50Kwh": 0.15,
+    "expectedP90Kwh": 0.25,
+    "nominalPowerFactor": 1.00
+  },
+  {
+    "applianceType": "TV",
+    "hour": 18,
+    "isWeekend": false,
+    "expectedWatts": 110.0,
+    "expectedP50Kwh": 0.11,
+    "expectedP90Kwh": 0.14,
+    "nominalPowerFactor": 0.92
+  },
+  {
+    "applianceType": "TV",
+    "hour": 21,
+    "isWeekend": false,
+    "expectedWatts": 125.0,
+    "expectedP50Kwh": 0.125,
+    "expectedP90Kwh": 0.15,
+    "nominalPowerFactor": 0.92
+  }
+]

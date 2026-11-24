@@ -1,0 +1,41 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,text/javascript,application/javascript,application/json
+
+spring:
+  application:
+    name: gridmind-backend
+  data:
+    mongodb:
+      # Connects directly to the user's MongoDB Atlas Cluster1 by default.
+      # Overridable via MONGODB_URI or MONGO_URI environment variables.
+      uri: ${MONGODB_URI:${MONGO_URI:mongodb+srv://advaith23cs005_db_user:advaith2316@cluster1.1tuvby8.mongodb.net/gridmind?retryWrites=true&w=majority&appName=Cluster1}}
+      auto-index-creation: true
+  task:
+    scheduling:
+      pool:
+        size: 4
+      thread-name-prefix: gridmind-sim-
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    time-zone: UTC
+
+logging:
+  level:
+    root: INFO
+    com.gridmind: DEBUG
+    org.springframework.data.mongodb: INFO
+    org.springframework.web.socket: INFO
+
+gridmind:
+  simulator:
+    enabled: true
+    interval-ms: 1000
+    telemetry-history-limit: 120
+    kwh-cost-inr: 8.25
+  baseline:
+    profiles-path: ml/gridmind_baseline_profiles.json
+    trained-file-path: ../data/gridmind_baseline_profiles.json
